@@ -18,6 +18,7 @@ export interface ActivityLog {
     timestamp: number;
     type: 'activity' | 'adjustment';
     description?: string;
+    memberName: string;
 }
 
 export interface AppState {
@@ -318,3 +319,4 @@ export const useStore = () => {
         deleteGroup,
     };
 };
+
