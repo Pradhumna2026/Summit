@@ -89,7 +89,7 @@ export const DailyLogModal: React.FC<DailyLogModalProps> = ({
                                                     <span className="text-xs text-slate-500 uppercase font-mono">steps</span>
                                                 </div>
                                             )}
-                                            <div className="text-xs text-slate-400 mt-1 uppercase font-mono">{log.member_name}</div>
+                                            <div className="text-xs text-slate-400 mt-1 uppercase font-mono">{log.memberName}</div>
                                         </div>
 
                                         {canEdit && (
@@ -117,4 +117,5 @@ export const DailyLogModal: React.FC<DailyLogModalProps> = ({
             </div>
         </AnimatePresence>
     );
+
 };
