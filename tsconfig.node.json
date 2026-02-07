@@ -10,9 +10,8 @@
     "isolatedModules": true,
     "moduleDetection": "force",
     "strict": true,
-    "noEmit": true,              // ← REMOVE or CHANGE this line
-    "composite": true,           // ← ADD this line
-    "emitDeclarationOnly": true  // ← ADD this line (replaces noEmit)
+    "composite": true,
+    "emitDeclarationOnly": true
   },
   "include": ["vite.config.ts"]
 }
