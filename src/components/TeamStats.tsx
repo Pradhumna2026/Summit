@@ -18,7 +18,7 @@ export const TeamStats: React.FC<TeamStatsProps> = ({ members, logs }) => {
             <div className="space-y-3">
                 {members.map((name, index) => {
                     const memberSteps = logs
-                        .filter(l => l.memberId === name)
+                        .filter(l => l.member_id === name)
                         .reduce((acc, log) => acc + log.steps, 0);
 
                     return (
@@ -53,3 +53,4 @@ export const TeamStats: React.FC<TeamStatsProps> = ({ members, logs }) => {
         </div>
     );
 };
+
