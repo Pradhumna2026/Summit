@@ -12,7 +12,11 @@
     "strict": true,
     "composite": true, // Required for project references
     "noEmit": false,   // Change this from true to false
-    "emitDeclarationOnly": true
+    "emitDeclarationOnly": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "types": ["node"]
+    
   },
   "include": ["vite.config.ts"]
 }
