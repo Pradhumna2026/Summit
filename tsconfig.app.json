@@ -30,6 +30,7 @@
   },
   "include": [
     "src/**/*.ts",
+    "**/*.tsx",
     "src/**/*.tsx",
     "src/**/*.d.ts",
     "*.ts",
